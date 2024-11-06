@@ -1,4 +1,10 @@
-/* custom property */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom property */
 :root {
     --global-color-1: #800000;
 }
@@ -17,26 +23,23 @@ body {
 a:focus, a:hover {
     font-style: italic;
 }
-
+/* the styles for the headers */
 header {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
     border-bottom: 3px solid #931420 !important;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 
-/* the styles for the header */
-header h2 {
-    font-size: 175%;
-    color: var(--global-color-1);
-    text-indent: 30px;
-}
-
-header h3 {
+header h2, header h3 {
     font-size: 130%;
     font-style: italic;
-    text-indent: 30px;
 }
 
 header img {
     float: left;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .shadow {
@@ -46,6 +49,8 @@ header img {
 /* the styles for the main content */
 main {
     clear: left;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 main h1 {
@@ -76,7 +81,7 @@ main p {
 
 main blockquote {
     padding: 0 2em;
-    font-style: italic;
+    font-style: italic; /* Step 12 */
 }
 
 main ul {
