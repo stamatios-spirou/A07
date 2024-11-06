@@ -1,8 +1,8 @@
 /* Reset */
 * {
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Custom property */
@@ -10,102 +10,100 @@
     --global-color-1: #800000;
 }
 
-/* Styles for body */
+/* the styles for the elements */
 body {
-    width: 600px !important;
-    margin: 0 auto !important;
-    border: 3px solid #931420 !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 100% !important;
-    margin-left: 10px !important;
-    background-color: #fff0dd !important;
+    width: 600px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 10px;
+    background-color: #fff0dd;
 }
 
 a:focus, a:hover {
-    font-style: italic !important;
+    font-style: italic;
 }
 
-/* Styles for the header */
 header {
-    padding-top: 1.5em !important;
-    padding-bottom: 2em !important;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
     border-bottom: 3px solid #931420 !important;
-    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%) !important;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%)!important; 
 }
 
 header h2, header h3 {
-    font-size: 130% !important;
-    font-style: italic !important;
+    font-size: 130%;
+    font-style: italic;
 }
 
 header img {
-    float: left !important;
-    padding-right: 30px !important;
-    padding-left: 30px !important;
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
-/* Shadow effect */
 .shadow {
-    text-shadow: 2px 2px 2px var(--global-color-1) !important;
+    text-shadow: 2px 2px 2px var(--global-color-1);
 }
 
-/* Styles for main content */
+/* the styles for the main content */
 main {
-    clear: left !important;
-    padding-right: 30px !important;
-    padding-left: 30px !important;
+    clear: left;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 main h1 {
-    font-size: 150% !important;
-    padding: .3em 0 !important;
+    font-size: 150%;
+    padding: .3em 0;
     border-top: 3px solid #931420 !important;
     border-bottom: 3px solid #931420 !important;
 }
 
 main h2 {
-    color: var(--global-color-1) !important;
-    font-size: 130% !important;
-    padding: .5em 0 .25em 0 !important;
+    color: var(--global-color-1);
+    font-size: 130%;
+    padding: .5em 0 .25em 0;
 }
 
 main h3 {
-    font-size: 105% !important;
-    padding-bottom: .25em !important;
+    font-size: 105%;
+    padding-bottom: .25em;
 }
 
 main img {
-    padding-bottom: 1em !important;
+    padding-bottom: 1em;
 }
 
 main p {
-    padding-bottom: .5em !important;
+    padding-bottom: .5em;
 }
 
 main blockquote {
-    padding: 0 2em !important;
-    font-style: italic !important; /* Step 12 */
+    padding: 0 2em;
+    font-style: italic; /* Step 12 */
 }
 
 main ul {
-    padding: 0 0 .25em 1.25em !important;
+    padding: 0 0 .25em 1.25em;
 }
 
 main li {
-    padding-bottom: .35em !important;
+    padding-bottom: .35em;
 }
 
-/* Styles for the footer */
+/* the styles for the footer */
 footer {
     background-color: #931420 !important;
 }
 
 footer p {
-    text-align: center !important;
-    padding: 1em 0 !important;
+    text-align: center;
+    padding: 1em 0;
     color: #ffffff !important;
 }
 
 html {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
 }
