@@ -25,11 +25,11 @@ a:focus, a:hover {
 header {
     background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
+
 header {
     padding-top: 1.5em;
     padding-bottom: 2em;
     border-bottom: 3px solid #931420 !important;
-    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 
 header h2, header h3 {
