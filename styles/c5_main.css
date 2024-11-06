@@ -1,16 +1,13 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Custom property */
 :root {
     --global-color-1: #800000;
 }
 
-/* the styles for the elements */
 body {
     width: 600px;
     margin: 0 auto;
@@ -29,7 +26,7 @@ header {
     padding-top: 1.5em;
     padding-bottom: 2em;
     border-bottom: 3px solid #931420 !important;
-    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%)!important; 
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 
 header h2, header h3 {
@@ -57,8 +54,8 @@ main {
 main h1 {
     font-size: 150%;
     padding: .3em 0;
-    border-top: 3px solid #931420 ;
-    border-bottom: 3px solid #931420 
+    border-top: 3px solid #931420 !important;
+    border-bottom: 3px solid #931420 !important;
 }
 
 main h2 {
@@ -82,7 +79,7 @@ main p {
 
 main blockquote {
     padding: 0 2em;
-    font-style: italic; /* Step 12 */
+    font-style: italic;
 }
 
 main ul {
@@ -93,7 +90,6 @@ main li {
     padding-bottom: .35em;
 }
 
-/* the styles for the footer */
 footer {
     background-color: #931420 !important;
 }
